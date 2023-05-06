@@ -14,7 +14,7 @@ function Aside () {
         <div className="h-full px-3 py-4 overflow-y-auto bg-[#F9FAFB] dark:bg-gray-800">
             <div className="flex items-center justify-between py-1 border-b-4 border-slate-200">
                 <span className="flex justify-center items-center cursor-pointer text-lg h-7 w-7 rounded-full bg-[#E4E7EC]"><BsImage/> </span>
-                <p className="whitespace-nowrap dark:text-white flex justify-center items-center cursor-pointer">Add new <span className="px-2 "><AiOutlinePlus/></span></p>
+                <a href='https://team6scrumer.netlify.app/' className="whitespace-nowrap dark:text-white flex justify-center items-center cursor-pointer">Add new <span className="px-2 "><AiOutlinePlus/></span></a>
             </div>
             <div className='flex flex-col justify-between items-center'>
                 <div className='flex justify-center items-center h-32 w-32 bg-[#03CEA4] rounded-full my-2'>
